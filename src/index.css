@@ -1,13 +1,110 @@
-body {
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500;700;900&display=swap");
+* {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body {
+  background-color: beige;
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+.contenedor {
+  background-color: azure;
+  margin: 5%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.box {
+  background-color: wheat;
+  padding: 5%;
+  margin: 1%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: column;
+  height: 80%;
+}
+p {
+  width: 100%;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 70px;
+  background-color: rgba(0, 0, 0, 0.849);
+  color: white;
+  align-items: center;
+  padding: 10px;
+}
+.logo-profile {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  background-color: beige;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo {
+  display: flex;
+  align-items: center;
+  margin: 5px;
+}
+
+.logo img {
+  height: 80px;
+  border-radius: 70%;
+  margin: 10px;
+}
+.srch_bar input[type="search"] {
+  font-family: "Poppins", sans-serif;
+  padding: 2px;
+  height: 2rem;
+}
+.srch_bar input[type="button"] {
+  font-family: "Poppins", sans-serif;
+  background-color: wheat;
+  height: 2rem;
+  padding: 2px;
+}
+.profile {
+  margin-right: 10px;
+}
+.profile img {
+  height: 25px;
+}
+.navBar {
+  height: 50px;
+  display: flex;
+  align-items: center;
+}
+h2 {
+  text-transform: uppercase;
+}
+a {
+  text-decoration: none;
+  color: white;
+  margin: 10px;
+  text-transform: uppercase;
+}
+a:hover {
+  color: wheat;
+}
+.profile img {
+  height: 55px;
+  border-radius: 100%;
+}
+@media (max-width: 730px) {
+  header {
+    flex-direction: column;
+    padding: 10px 0px;
+  }
 }
