@@ -16,7 +16,7 @@ export const MyRoutes = () => {
             {/*     CONTENIDO CENTRAL   */}
             <section className="content">
                 <Routes>
-                    <Route path='/' element={<Navigate to="Inicio" />} />
+                    <Route path='/' exact element={<Navigate to="Inicio" />} />
                     <Route path='/inicio' element={<Inicio />} />
                     <Route path='/catalogo' element={<Catalogo />} />
                     <Route path='/blog' element={<Blog />} />

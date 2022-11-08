@@ -2,6 +2,9 @@ import React from 'react'
 
 export const Catalogo = () => {
     return (
-        <div>Catalogo</div>
+        <div>
+            <h1>Catalogo</h1>
+        </div>
     )
 }
+export default Catalogo
