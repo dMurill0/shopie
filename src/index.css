@@ -109,22 +109,24 @@ a:hover {
   height: 55px;
   border-radius: 100%;
 }
-
-/* INICIO */
-
 .content {
   background-image: url("/public/images/bg.jpg");
   background-size: cover;
+  min-height: 90vh;
+}
+
+/* INICIO */
+
+.contentWrap {
+  margin: auto;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  align-items: center;
-  margin: auto;
-  min-height: 90vh;
 }
-.content h1 {
+.contentWrap h1 {
   -webkit-text-stroke: 0.4px white;
   margin-bottom: 30px;
+  margin-top: 10%;
 }
 .images {
   margin-top: 5%;
@@ -133,6 +135,14 @@ a:hover {
   border-radius: 50%;
   box-shadow: 1px 1px 2px 2px black;
   margin: 0.3%;
+}
+
+/* PAGINAS */
+.heading {
+  display: flex;
+  flex-direction: column;
+  align-content: flex-start;
+  justify-content: flex-start;
 }
 
 /* FOOTER */

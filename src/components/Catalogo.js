@@ -2,7 +2,7 @@ import React from 'react'
 
 export const Catalogo = () => {
     return (
-        <div>
+        <div className='heading'>
             <h1>Catalogo</h1>
         </div>
     )
