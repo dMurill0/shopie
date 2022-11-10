@@ -50,7 +50,7 @@ header {
   margin: 0;
   padding: 0;
   width: 100%;
-  background-color: beige;
+  background-image: linear-gradient(to right, #e6b17e, orange);
   display: flex;
   flex-direction: row;
   align-items: flex-start;
@@ -86,6 +86,7 @@ header {
 }
 .profile img {
   height: 25px;
+  box-shadow: 1px 1px 2px 2px black;
 }
 .navBar {
   height: 50px;
@@ -109,6 +110,8 @@ a:hover {
   border-radius: 100%;
 }
 
+/* INICIO */
+
 .content {
   background-image: url("/public/images/bg.jpg");
   background-size: cover;
@@ -117,9 +120,11 @@ a:hover {
   justify-content: space-around;
   align-items: center;
   margin: auto;
+  min-height: 90vh;
 }
 .content h1 {
   -webkit-text-stroke: 0.4px white;
+  margin-bottom: 30px;
 }
 .images {
   margin-top: 5%;
@@ -128,6 +133,30 @@ a:hover {
   border-radius: 50%;
   box-shadow: 1px 1px 2px 2px black;
   margin: 0.3%;
+}
+
+/* FOOTER */
+footer {
+  height: 10vh;
+  background-color: rgba(0, 0, 0, 0.849);
+  color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  height: 20vh;
+}
+.socials {
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+  margin-left: 5%;
+}
+.copyright {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-size: 0.9em;
+  margin-right: 20px;
 }
 @media (max-width: 730px) {
   header {

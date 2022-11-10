@@ -2,6 +2,7 @@ import React from 'react'
 import { NavLink } from 'react-router-dom'
 import ShoppingCartIcon from '@mui/icons-material/ShoppingCart';
 import { Badge, Avatar } from '@mui/material';
+
 export const Header = () => {
     return (
         <>
@@ -16,10 +17,9 @@ export const Header = () => {
                     </div>
                     <div className='profile'>
                         <Avatar alt="Daniel" src="./images/avatar.jpg" sx={{ width: 56, height: 56 }} />
-                        <Badge badgeContent="2" color="primary" style={{ marginRight: "3px" }}>
+                        <Badge badgeContent="0" color="primary" style={{ marginRight: "3px" }}>
                             <a href='/'><ShoppingCartIcon style={{ color: "black" }} /></a>
                         </Badge>
-
                     </div>
                 </nav>
                 <nav className='navBar'>
