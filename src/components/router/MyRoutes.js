@@ -2,16 +2,13 @@ import React from 'react'
 import { Routes, Route, BrowserRouter, Navigate } from "react-router-dom";
 import { Inicio } from "../Inicio"
 import { Contact } from "../Contact";
-import { Header } from '../layout/Header';
-import { Footer } from '../layout/Footer';
 import { About } from '../About';
 import { Catalogo } from '../Catalogo';
 import { Blog } from '../Blog';
 export const MyRoutes = () => {
     return (
         <BrowserRouter>
-            {/*     HEADER Y NAVEGACIÓN   */}
-            <Header></Header>
+
 
             {/*     CONTENIDO CENTRAL   */}
             <section className="content">
@@ -33,8 +30,7 @@ export const MyRoutes = () => {
 
             </section>
 
-            {/*     FOOTER   */}
-            {<Footer></Footer>}
+
         </BrowserRouter>
     )
 }
