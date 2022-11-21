@@ -7,7 +7,11 @@ module.exports = {
     extend: {
       colors: {
         primary: "#f4f4ec",
-        secondary: "#f46f10"
+        secondary: "#f13223"
+      },
+      backgroundImage: {
+        'heroBg': "url('/public/images/bg.jpg')",
+        'meshBg': "url('/public/images/bgMesh.png')"
       }
     },
   },

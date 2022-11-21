@@ -5,7 +5,7 @@ import { MyRoutes } from './components/router/MyRoutes';
 
 function App() {
   return (
-    <div className="h-full bg-primary/40">
+    <div className="h-full  bg-heroBg opacity-70 bg-no-repeat bg-cover ">
 
       <MyRoutes />
       <Footer />
