@@ -8,7 +8,7 @@ function App() {
     <div className="h-full  bg-heroBg opacity-70 bg-no-repeat bg-cover ">
 
       <MyRoutes />
-      <Footer />
+      
     </div>
   );
 }
