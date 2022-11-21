@@ -5,6 +5,11 @@ module.exports = {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        'roboto': ['Roboto', 'sans-serif'],
+        'oswald': ['Oswald', 'sans-serif'],
+        'montserrat': ['Montserrat', 'sans-serif']
+      },
       colors: {
         primary: "#f4f4ec",
         secondary: "#f13223"

@@ -11,7 +11,7 @@ export const Header = () => {
                 <div className=''>
                     <NavLink to="/"><img className='h-14 mx-5 rounded-full' src='./images/logo3.png' alt='' /></NavLink>
                 </div>
-                <nav className='font-semibold font-mono'>
+                <nav className='font-semibold font-oswald'>
                     <NavLink to="Inicio" className='mr-2 md:mr-8 xl:mr-10 text-sm text-white md:text-lg xl:text-xl hover:text-secondary uppercase'>Inicio</NavLink>
                     <NavLink to='Catalogo' className='mr-2 md:mr-8 xl:mr-10 text-sm text-white md:text-lg xl:text-xl hover:text-secondary uppercase'>Catálogo</NavLink>
                     <NavLink to='Blog' className='mr-2 md:mr-8 xl:mr-10 text-sm text-white md:text-lg xl:text-xl hover:text-secondary uppercase'>Blog</NavLink>
