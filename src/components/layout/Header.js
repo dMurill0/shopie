@@ -8,7 +8,7 @@ export const Header = () => {
     return (
         <div className='bg-slate-800'>
             <div className='flex justify-between border-b-2 p-4 items-center'>
-                <div className=''>
+                <div className='hidden sm:block'>
                     <NavLink to="/"><img className='h-14 mx-5 rounded-full' src='./images/logo3.png' alt='' /></NavLink>
                 </div>
                 <nav className='font-semibold font-oswald'>

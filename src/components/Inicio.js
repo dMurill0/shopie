@@ -10,7 +10,7 @@ export const Inicio = () => {
             <Header />
             <div className="h-full flex flex-col my-0 md:my-6 lg:my-12 justify-between ">
                 <div className='w-full'>
-                    <h1 className='text-center text-4xl sm:text-6xl md:text-8xl font-oswald font-extrabold my-10 tracking-wider capitalize text-secondary subpixel-antialiased' id="title">La casa de las Sneakers </h1>
+                    <h1 className='p-4 flex items-center justify-center text-center text-gray-800 text-4xl sm:text-6xl md:text-8xl font-oswald font-extrabold bg-red-400' id="title">La casa de las Sneakers </h1>
                 </div>
                 <motion.div initial={{
                     x: -500,
@@ -26,7 +26,7 @@ export const Inicio = () => {
                         duration: 2.5,
                     }}
                     className="flex justify-between mx-10 my-10 ">
-                    <div className='w-1/4 space-y-10 bg-meshBg p-4 m-2 rounded-2xl opacity-90 flex flex-col'>
+                    <div className='w-1/4 space-y-10 bg-meshBg p-4 m-2 rounded-2xl opacity-90 flex flex-col shadow-md shadow-gray-700'>
                         <p className='text-large lg:text-2xl font-semibold font-oswald text-gray-800'>Avanzando en tu ritual diario, con cada paso acercandote a tus objetivos personales. No importa si entrenas, simplemente mantén su estilo</p>
                         <NavLink to="/blog" className="hidden sm:block text-2xl text-black font-bold font-oswald hover:text-secondary/80">Leer más <ArrowForwardIcon /></NavLink>
                         <NavLink to="/blog" className="block sm:hidden text-2xl text-black font-bold font-oswald hover:text-secondary/80">Ínspirate</NavLink>
@@ -35,7 +35,7 @@ export const Inicio = () => {
                         <img className='h-48 border-8 border-red-400 rounded-full' src="./images/image1.jpg" alt="" />
                         <img className='h-48 border-8 border-red-400  rounded-full' src="./images/image2.jpg" alt="" />
                     </div> */}
-                    <div className='w-1/4 space-y-5 bg-meshBg p-4 m-2 rounded-2xl opacity-90 flex flex-col justify-around'>
+                    <div className='w-1/4 space-y-5 bg-meshBg p-4 m-2 rounded-2xl opacity-90 flex flex-col justify-around shadow-md shadow-gray-700'>
                         <h2 className='font-oswald text-gray text-xl md:text-3xl lg:text-5xl font-bold uppercase tracking-widest'>Ahorra hasta un 60% </h2>
                         <p className='font-oswald'>Usa el código SALE20 para obtener un descuento extra de un 20% en artículos seleccionados</p>
                         <button className='bg-secondary/70 hover:bg-secondary p-3 mt-3 rounded-lg sm:mt-0 text-xl text-gray-800 hover:text-gray-200 font-semibold'>Compra ya</button>

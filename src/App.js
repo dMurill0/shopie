@@ -5,10 +5,10 @@ import { MyRoutes } from './components/router/MyRoutes';
 
 function App() {
   return (
-    <div className="h-full  bg-heroBg opacity-70 bg-no-repeat bg-cover ">
+    <div className="h-full  bg-heroBg grayscale-5 opacity-90 bg-no-repeat bg-cover ">
 
       <MyRoutes />
-      
+
     </div>
   );
 }
