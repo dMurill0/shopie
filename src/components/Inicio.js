@@ -51,12 +51,12 @@ export const Inicio = () => {
                         duration: 2.5,
                     }}
 
-                    className='h-60 m-10 bg-red-400 flex items-center justify-around'>
-                    <h3 className='text-large lg:text-2xl font-semibold font-oswald hidden md:block ml-10'>Trending <ArrowForwardIcon /></h3>
-                    <img className='w-20 sm:w-24 md:w-34 xl:w-44 rounded-full hover:scale-150 duration-300 hover:shadow-2xl' src="/images/sneaker1.webp" alt="" />
-                    <img className='w-20 sm:w-24 md:w-34 xl:w-44 rounded-full hover:scale-150 duration-300 hover:shadow-2xl' src="../images/sneaker2.jpg" alt="" />
-                    <img className='w-20 sm:w-24 md:w-34 xl:w-44 rounded-full hover:scale-150 duration-300 hover:shadow-2xl' src="../images/sneaker3.jpg" alt="" />
-                    <img className='w-20 sm:w-24 md:w-34 xl:w-44 rounded-full hover:scale-150 duration-300 hover:shadow-2xl' src="../images/sneaker4.jpg" alt="" />
+                    className='h-60  bg-red-400 flex items-center justify-around'>
+                    <NavLink to="/Catalogo"><h3 className='text-large lg:text-2xl font-semibold font-oswald hidden md:block ml-10'>Trending <ArrowForwardIcon /></h3></NavLink>
+                    <img className='w-20 sm:w-24 md:w-34 xl:w-44 rounded-full hover:scale-150 duration-300 hover:shadow-2xl' src="/images/productos/sneaker1.webp" alt="" />
+                    <img className='w-20 sm:w-24 md:w-34 xl:w-44 rounded-full hover:scale-150 duration-300 hover:shadow-2xl' src="../images/productos/sneaker2.webp" alt="" />
+                    <img className='w-20 sm:w-24 md:w-34 xl:w-44 rounded-full hover:scale-150 duration-300 hover:shadow-2xl' src="../images/productos/sneaker3.webp" alt="" />
+                    <img className='w-20 sm:w-24 md:w-34 xl:w-44 rounded-full hover:scale-150 duration-300 hover:shadow-2xl' src="../images/productos/sneaker8.webp" alt="" />
                 </motion.div>
                 <motion.div initial={{
                     z: -500,

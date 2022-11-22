@@ -14,16 +14,13 @@ export const MyRoutes = () => {
             <section className="content">
                 <Routes>
                     <Route path='/' exact element={<Navigate to="Inicio" />} />
-                    <Route path='/inicio' element={<Inicio />} />
+                    <Route path='/inicio' element={<Inicio />} /> 
                     <Route path='/catalogo' element={<Catalogo />} />
                     <Route path='/blog' element={<Blog />} />
                     <Route path='/contact' element={<Contact />} />
                     <Route path='/about' element={<About />} />
                     <Route path='*' element={
-                        <div className='page'>
-                            <h1 className='heading'>Error 404</h1>
-                            <p>Página no encontrada</p>
-                        </div>
+                       <Navigate to="Inicio" />
                     } />
 
                 </Routes>
