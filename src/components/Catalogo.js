@@ -15,7 +15,7 @@ export const Catalogo = () => {
                     sneakers.slice(0, sneakers.length).map(sneaker => {
                         return (
 
-                            <div key={sneaker.id} className='bg-red-400 w-1/2 sm:w-1/3 md:w-1/5 h-fit m-10 p-4 flex flex-col space-y-2'>
+                            <div key={sneaker.id} className='bg-red-400 w-1/2 sm:w-1/3 md:w-1/5 lg:1/8 h-fit m-10 p-4 flex flex-col space-y-2'>
                                 <img className='h-60 rounded-2xl hover:scale-125 duration-700 hover:shadow-2xl' src={sneaker.imagen} alt="" />
                                 <h1 className='text-gray-200 font-oswald'>{sneaker.nombre}</h1>
                                 <div className='flex justify-between'>

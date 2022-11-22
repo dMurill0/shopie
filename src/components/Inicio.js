@@ -11,7 +11,7 @@ export const Inicio = () => {
             <Header />
             <div className="h-full flex flex-col py-10 space-y-40 md:my-6 lg:my-12 justify-between bg-heroBg grayscale-5 opacity-90 bg-no-repeat bg-cover  ">
                 <div className='w-full'>
-                    <h1 className='p-4 flex items-center justify-center text-center text-gray-800 text-4xl sm:text-6xl md:text-8xl font-oswald font-extrabold bg-red-400 ' id="title">La casa de las Sneakers </h1>
+                    <h1 className='p-4 flex items-center justify-center text-center text-gray-800 text-4xl sm:text-6xl md:text-8xl font-oswald font-extrabold bg-red-400 ' id="title">El hogar de las Sneakers </h1>
                 </div>
                 <Cursor cursorColor='#e16769' />
 
