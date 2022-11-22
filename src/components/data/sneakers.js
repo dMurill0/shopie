@@ -1,7 +1,7 @@
 export const sneakers = [
     {
         "id": "1",
-        "nombre": "Converse Chuck Taylor All Star Hi",
+        "nombre": "Converse Chuck Taylor",
         "color": "Azul turquesa",
         "imagen": "../images/productos/sneaker2.webp",
         "precio": 74.95
@@ -22,15 +22,15 @@ export const sneakers = [
     },
     {
         "id": "4",
-        "nombre": "Adidas Zapatilla Multix",
+        "nombre": "Adidas Multix",
         "color": "Negro",
         "imagen": "../images/productos/sneaker4.webp",
         "precio": 85.95
     },
     {
         "id": "5",
-        "nombre": "Under Armour UA HOVR Ridge",
-        "color": "Fresco Green/Orange Ice",
+        "nombre": "Under Armour Ridge",
+        "color": "Fresco Green/Orange",
         "imagen": "../images/productos/sneaker5.webp",
         "precio": 140.05
     },
@@ -57,7 +57,7 @@ export const sneakers = [
     },
     {
         "id": "9",
-        "nombre": "Puma Slipstream Lo Suede",
+        "nombre": "Puma Lo Suede",
         "color": "Blanco/azul",
         "imagen": "../images/productos/sneaker9.webp",
         "precio": 110
@@ -78,7 +78,7 @@ export const sneakers = [
     },
     {
         "id": "12",
-        "nombre": "Adidas Bota Terrex AX4 Mid Beta COLD.RDY Hiking",
+        "nombre": "Adidas Terrex AX4",
         "color": "Verde caza",
         "imagen": "../images/productos/sneaker12.webp",
         "precio": 135.95
