@@ -2,7 +2,6 @@ import React from 'react'
 import { NavLink } from 'react-router-dom'
 import { Header } from './layout/Header';
 import { motion } from "framer-motion"
-import ArrowForwardIcon from '@mui/icons-material/ArrowForward';
 import { Cursor } from "react-simple-typewriter"
 
 export const Inicio = () => {
@@ -31,7 +30,7 @@ export const Inicio = () => {
                     className="flex justify-between mx-10 my-10 ">
                     <div className='sm:w-2/5 md:w-1/3  space-y-10 bg-meshBg p-4 m-2 rounded-2xl opacity-90 flex flex-col shadow-md shadow-gray-700'>
                         <p className='text-large lg:text-2xl font-semibold font-oswald text-gray-800'>Avanzando en tu ritual diario, con cada paso acercandote a tus objetivos personales. No importa si entrenas, simplemente mantén su estilo</p>
-                        <NavLink to="/blog" className="hidden sm:block text-2xl text-black font-bold font-oswald hover:text-secondary/80">Leer más <ArrowForwardIcon /></NavLink>
+                        <NavLink to="/blog" className="hidden sm:block text-2xl text-black font-bold font-oswald hover:text-secondary/80">Leer más &rarr; </NavLink>
                         <NavLink to="/blog" className="block sm:hidden text-2xl text-black font-bold font-oswald hover:text-secondary/80">Ínspirate</NavLink>
                     </div>
                     <div className='sm:w-2/5 md:w-1/3 space-y-5 bg-meshBg p-4 m-2 rounded-2xl opacity-90 flex flex-col justify-around shadow-md shadow-gray-700'>
@@ -54,12 +53,12 @@ export const Inicio = () => {
                         duration: 2.5,
                     }}
 
-                    className='h-60  bg-red-400 flex items-center justify-around'>
-                    <NavLink to="/Catalogo"><h3 className='text-large lg:text-2xl font-semibold font-oswald hidden md:block ml-10'>Trending <ArrowForwardIcon /></h3></NavLink>
-                    <img className='w-20 sm:w-24 md:w-34 xl:w-44 rounded-full hover:scale-150 duration-300 hover:shadow-2xl' src="/images/productos/sneaker1.webp" alt="" />
-                    <img className='w-20 sm:w-24 md:w-34 xl:w-44 rounded-full hover:scale-150 duration-300 hover:shadow-2xl' src="../images/productos/sneaker2.webp" alt="" />
-                    <img className='w-20 sm:w-24 md:w-34 xl:w-44 rounded-full hover:scale-150 duration-300 hover:shadow-2xl' src="../images/productos/sneaker3.webp" alt="" />
-                    <img className='w-20 sm:w-24 md:w-34 xl:w-44 rounded-full hover:scale-150 duration-300 hover:shadow-2xl' src="../images/productos/sneaker8.webp" alt="" />
+                    className='h-60  bg-red-400 flex items-center justify-around '>
+                    <NavLink to="/Catalogo"><h3 className='text-large md:text-2xl lg:text-4xl font-semibold lg:font-bold font-oswald hidden md:block ml-10 uppercase'>Trending &rarr;</h3></NavLink>
+                    <img className='w-20 rotate-3 sm:w-24 md:w-34 xl:w-44 rounded-lg hover:scale-150 duration-300 hover:shadow-2xl' src="/images/productos/sneaker1.webp" alt="" />
+                    <img className='w-20 rotate-3 sm:w-24 md:w-34 xl:w-44 rounded-lg hover:scale-150 duration-300 hover:shadow-2xl' src="../images/productos/sneaker2.webp" alt="" />
+                    <img className='w-20 rotate-3 sm:w-24 md:w-34 xl:w-44 rounded-lg hover:scale-150 duration-300 hover:shadow-2xl' src="../images/productos/sneaker3.webp" alt="" />
+                    <img className='w-20 rotate-3 sm:w-24 md:w-34 xl:w-44 rounded-lg hover:scale-150 duration-300 hover:shadow-2xl' src="../images/productos/sneaker8.webp" alt="" />
                 </motion.div>
                 <motion.div initial={{
                     z: -500,
