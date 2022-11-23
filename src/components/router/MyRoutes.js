@@ -14,13 +14,13 @@ export const MyRoutes = () => {
             <section className="content">
                 <Routes>
                     <Route path='/' exact element={<Navigate to="Inicio" />} />
-                    <Route path='/inicio' element={<Inicio />} /> 
+                    <Route path='/inicio' element={<Inicio />} />
                     <Route path='/catalogo' element={<Catalogo />} />
                     <Route path='/blog' element={<Blog />} />
                     <Route path='/contact' element={<Contact />} />
                     <Route path='/about' element={<About />} />
                     <Route path='*' element={
-                       <Navigate to="Inicio" />
+                        <Navigate to="Inicio" />
                     } />
 
                 </Routes>

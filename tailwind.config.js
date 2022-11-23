@@ -12,7 +12,7 @@ module.exports = {
       },
       colors: {
         primary: "#f4f4ec",
-        secondary: "#f13223"
+        secondary: "#e1686a"
       },
       backgroundImage: {
         'heroBg': "url('/public/images/bg.jpg')",
@@ -20,5 +20,7 @@ module.exports = {
       }
     },
   },
-  plugins: [],
+  plugins: [
+    require('tailwind-scrollbar'), ({ nocompatible: true }),
+  ],
 }

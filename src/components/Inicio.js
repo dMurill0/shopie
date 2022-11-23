@@ -28,12 +28,12 @@ export const Inicio = () => {
                         duration: 2.5,
                     }}
                     className="flex justify-between mx-10 my-10 ">
-                    <div className='sm:w-2/5 md:w-1/3  space-y-10 bg-meshBg p-4 m-2 rounded-2xl opacity-90 flex flex-col shadow-md shadow-gray-700'>
+                    <div className='sm:w-2/5 md:w-1/3  space-y-10 bg-meshBg p-4 m-2 rounded-2xl flex flex-col shadow-md shadow-gray-700'>
                         <p className='text-large lg:text-2xl font-semibold font-oswald text-gray-800'>Avanzando en tu ritual diario, con cada paso acercandote a tus objetivos personales. No importa si entrenas, simplemente mantén su estilo</p>
                         <NavLink to="/blog" className="hidden sm:block text-2xl text-black font-bold font-oswald hover:text-secondary/80">Leer más &rarr; </NavLink>
                         <NavLink to="/blog" className="block sm:hidden text-2xl text-black font-bold font-oswald hover:text-secondary/80">Ínspirate</NavLink>
                     </div>
-                    <div className='sm:w-2/5 md:w-1/3 space-y-5 bg-meshBg p-4 m-2 rounded-2xl opacity-90 flex flex-col justify-around shadow-md shadow-gray-700'>
+                    <div className='sm:w-2/5 md:w-1/3 space-y-5 bg-meshBg p-4 m-2 rounded-2xl flex flex-col justify-around shadow-md shadow-gray-700'>
                         <h2 className='font-oswald text-gray text-xl md:text-3xl lg:text-5xl font-bold uppercase tracking-widest'>Ahorra hasta un 60% </h2>
                         <p className='font-oswald'>Usa el código SALE20 para obtener un descuento extra de un 20% en artículos seleccionados</p>
                         <NavLink to="/Catalogo"><button className='bg-secondary/70 w-1/2  hover:bg-secondary p-3 mt-3 rounded-lg sm:mt-0 text-xl text-gray-800 hover:text-gray-200 font-normal font-oswald'>Compra ya</button></NavLink>
