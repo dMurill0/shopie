@@ -1,5 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
+  darkMode: "class",
   content: [
     "./src/**/*.{js,jsx,ts,tsx}",
   ],
@@ -16,7 +17,8 @@ module.exports = {
       },
       backgroundImage: {
         'heroBg': "url('/public/images/bg.jpg')",
-        'meshBg': "url('/public/images/bgMesh.png')"
+        'meshBg': "url('/public/images/bgMesh.png')",
+        'darkMesh': "url('/public/images/darkMesh.jpg')"
       }
     },
   },
