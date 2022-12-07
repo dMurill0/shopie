@@ -15,6 +15,11 @@ const postSchema = new mongoose.Schema({
         type: String,
         trim: true
     },
+    color: {
+        type: String,
+        required: true,
+        trim: true
+    },
     image: {
         url: String,
         public_id: String

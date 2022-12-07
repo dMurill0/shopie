@@ -13,7 +13,7 @@ export const getPosts = async (req, res) => {
 }
 export const createPost = async (req, res) => {
     try {
-        const { title, description, price } = req.body
+        const { title, description, price, color } = req.body
         let image = null
         if (req.files.image) {
             const result = await uploadImage(req.files.image.tempFilePath)
@@ -24,7 +24,7 @@ export const createPost = async (req, res) => {
             }
 
         }
-        const newPost = new Post({ title, description, price ,image })
+        const newPost = new Post({ title, description, price, color, image })
         await newPost.save()
         return res.json(newPost);
     } catch (error) {
@@ -45,7 +45,7 @@ export const deletePost = async (req, res) => {
     try {
         const postRemove = await Post.findByIdAndDelete(req.params.id)
         if (!postRemove) return res.sendStatus(404)
-        if(postRemove.image.public_id){
+        if (postRemove.image.public_id) {
             await deleteImage(postRemove.image.public_id)
         }
         return res.sendStatus(204)
