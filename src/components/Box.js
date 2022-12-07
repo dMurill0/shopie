@@ -1,6 +1,6 @@
 import React from 'react'
 import { motion } from "framer-motion";
-const Box = ({ id, title, price, color, image }) => {
+const Box = ({ id, title, price, color, image, description }) => {
     return (
         <motion.div
             initial={{

@@ -2,17 +2,32 @@
 import { NavLink } from 'react-router-dom'
 import { motion } from "framer-motion"
 import { Cursor } from "react-simple-typewriter"
+import Slide from './Slide'
+import { useEffect, useState } from 'react'
 
 export const Inicio = () => {
+    const [slides, setSlides] = useState([]);
 
-
+    useEffect(() => {
+        fetchSlides()
+    }, [])
+    const fetchSlides = () => {
+        fetch("/posts").then((res) => res.json())
+            .then((data) => {
+                setSlides(data);
+            })
+    }
     return (
+
+
         <div className='h-fit min-h-fit w-screen bg-blue-600 dark:bg-slate-900 '>
 
             <div className="h-full flex flex-col py-10 space-y-40 md:my-6 lg:my-12 justify-between bg-heroBg grayscale-5 opacity-90 bg-no-repeat bg-cover  ">
+
                 <div className='w-full'>
                     <h1 className='p-4 flex items-center justify-center text-center text-gray-200 dark:text-gray-800 text-4xl sm:text-6xl md:text-8xl font-oswald font-extrabold bg-blue-400 dark:bg-red-400 ' id="title">El hogar de las Sneakers </h1>
                 </div>
+                <Slide slides={slides} />
                 <Cursor cursorColor='#e16769' />
 
                 <motion.div initial={{
